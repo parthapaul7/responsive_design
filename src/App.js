@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Main from './components/Main';
 import Courses from './components/Courses';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className='overflow-x-hidden'>
@@ -11,6 +12,7 @@ function App() {
     <Main/>
     <Courses/>
     <Contact/>
+    <Footer/>
     </div>
    
   );
