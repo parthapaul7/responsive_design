@@ -27,13 +27,13 @@ const Main = () => {
 
       <div className="bg-img md:h-[345px] sm:flex justify-evenly items-center ">
         <div className="w-fit mx-auto my-10 text-center sm:text-left">
-          <div className="text-[calc(1vw+1rem)] text-[#86919D]">Total Student</div>{" "}
-          <div className="text-[#1F2532] text-[calc(1vw+1.75rem)]">5140</div>{" "}
+          <div className="text-[calc(1vw+1rem)] text-[#86919D]">Total Student</div>
+          <div className="text-[#1F2532] text-[calc(1vw+1.75rem)]">5140</div>
           <div className="w- bg-green-600 h-2"></div>
         </div>
         <div className="w-fit mx-auto my-10 text-center sm:text-left">
-          <div className="text-[calc(1vw+1rem)] text-[#86919D]">Partners</div>{" "}
-          <div className="text-[#1F2532] text-[calc(1vw+1.75rem)]">4123</div>{" "}
+          <div className="text-[calc(1vw+1rem)] text-[#86919D]">Partners</div>
+          <div className="text-[#1F2532] text-[calc(1vw+1.75rem)]">4123</div>
           <div className="w bg-green-600 h-2"></div>
         </div>
         <div className="w-fit mx-auto my-10 text-center sm:text-left">

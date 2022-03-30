@@ -2,13 +2,13 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="my-10 w-[100vw] overflow-hidden">
+    <div className="my-10 w-[100vw]">
       <div className="text-center text-green-500">Contact-Us</div>
-      <p className="mx-auto text-center max-w-[410px] text-2xl md:text-4xl my-5 capitalize">
+      <p className="mx-auto px-5 text-center max-w-[410px] text-2xl md:text-4xl my-5 capitalize">
         Reach Out with any question you have
       </p>
       <div className="xl:flex my-20">
-        <div className="w-[400px]  mx-auto">
+        <div className="w-[calc(360px+5vw)]  mx-auto">
           <ContactLinks/>
         </div>
         <div className="w-[90vw] md:w-[650px] 2xl:w-[792px] my-10 mx-auto xl:mr-">
@@ -33,7 +33,7 @@ const ContactLinks = () => {
           <img src="images/location.svg" alt="social" /> <div>102 Street, India</div>
         </div>
       <div className="text-3xl p-5 text-center xl:text-left capitalize">social media channel</div>
-      <div className="flex justify-between p-5">
+      <div className="flex  md:mx-0 justify-between w-full p-5">
         <img src="images/Facebook.svg" alt="socialLinks" />
         <img src="images/Linkedin.svg" alt="socialLinks" />
         <img src="images/Github.svg" alt="socialLinks" />

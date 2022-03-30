@@ -1,20 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-import NavBar from './components/NavBar';
-import Main from './components/Main';
-import Courses from './components/Courses';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import logo from "./logo.svg";
+import "./App.css";
+import NavBar from "./components/NavBar";
+import Main from "./components/Main";
+import Courses from "./components/Courses";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 function App() {
   return (
-    <div className='overflow-x-hidden'>
-    <NavBar/>
-    <Main/>
-    <Courses/>
-    <Contact/>
-    <Footer/>
-    </div>
-   
+    <>
+      <NavBar />
+      <div className="mx-auto overflow-x-hidden">
+        <Main />
+        <Courses />
+        <Contact />
+        <Footer />
+      </div>
+    </>
   );
 }
 
