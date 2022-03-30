@@ -8,10 +8,10 @@ const Contact = () => {
         Reach Out with any question you have
       </p>
       <div className="xl:flex my-20">
-        <div className="w-[400px]  mx-auto xl:ml-[200px]">
+        <div className="w-[400px]  mx-auto">
           <ContactLinks/>
         </div>
-        <div className="w-[90vw] md:w-[650px] 2xl:w-[792px] my-10 mx-auto xl:mr-10">
+        <div className="w-[90vw] md:w-[650px] 2xl:w-[792px] my-10 mx-auto xl:mr-">
        <ContactForm/> 
         </div>
       </div>
@@ -22,7 +22,7 @@ const Contact = () => {
 const ContactLinks = () => {
   return (
     <>
-      <div className="text-3xl p-5">contact information</div>
+      <div className="text-3xl p-5 text-center xl:text-left capitalize">contact information</div>
         <div className="flex items-center">
           <img src="images/email.svg" alt="social" /> <div>pparthapaul11@gamil.com</div>
         </div>
@@ -32,7 +32,7 @@ const ContactLinks = () => {
         <div  className="flex items-center">
           <img src="images/location.svg" alt="social" /> <div>102 Street, India</div>
         </div>
-      <div className="text-xl p-5">social media channel</div>
+      <div className="text-3xl p-5 text-center xl:text-left capitalize">social media channel</div>
       <div className="flex justify-between p-5">
         <img src="images/Facebook.svg" alt="socialLinks" />
         <img src="images/Linkedin.svg" alt="socialLinks" />

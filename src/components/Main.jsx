@@ -4,7 +4,7 @@ import "./Main.css";
 const Main = () => {
   return (
     <main className="w-[100vw] ">
-      <div className="w-full  bg-[#01CB63] md:flex">
+      <div className="w-full  bg-[#01CB63] lg:flex">
         <div className="p-10 md:p-16 lg:p-[calc(3vw+5rem)] ">
           <h1 className="text-white text-[calc(1vw+1.75rem)] pb-10">
             AnyTime, anywhere Learn on your schedule from any device
@@ -19,8 +19,8 @@ const Main = () => {
           </button>
         </div>
         <img
-          className="md:w-1/2"
-          src="images/Rectangle 25.png"
+          className="lg:w-1/2"
+          src="images/main-pic.jpg"
           alt=" big image"
         />
       </div>
